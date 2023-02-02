@@ -1,3 +1,6 @@
+# Xenon Stack Assignment Solution
+## Theme: Mobile Selling
+
 ## SETTING UP 
 - Download the to your machine
 - Open command window in project folder
@@ -19,3 +22,6 @@
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 
 ## Screenshots
+![Screenshot 2023-02-02 192517](https://user-images.githubusercontent.com/124259477/216344335-03cc412b-99e4-46ee-8c5a-24bf576b9d65.jpg)
+![Screenshot 2023-02-02 192532](https://user-images.githubusercontent.com/124259477/216344387-995e357a-be15-4d69-91b0-8f6ff15dda09.jpg)
+![Screenshot 2023-02-02 192501](https://user-images.githubusercontent.com/124259477/216344540-11bc4277-69f3-4032-844e-a80ec39f3608.jpg)
