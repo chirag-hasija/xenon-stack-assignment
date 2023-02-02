@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/contact.css">
+    <script src="/static/index.js"></script>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3137/3137807.png" type="image/x-icon">
+    <title>Xenon-Mobiles</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <a href="/"><img src="https://cdn-icons-png.flaticon.com/512/3137/3137807.png" alt="RedStore" width="50px" /></a>
+    </div>
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/signin">Login</a></li>
+        <li><a href="/signup">Register</a></li>
+      </ul>
+    </nav>
+    <img src="https://i.ibb.co/6XbqwjD/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+  </div>
+    <div class="container">  
+        <form id="contact" action="/save-form" method="post">
+          <h3>Contact Form</h3>
+          <fieldset>
+            <input placeholder="Your name" name="username" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" name="number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+</body>
+</html>
